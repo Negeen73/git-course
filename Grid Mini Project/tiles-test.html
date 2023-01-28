@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiles Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Tiles */
+        .tile-title{
+            text-align: center;
+            padding-top: 4rem ;
+            padding-bottom: 1rem;
+        }
+        .tiles-center img{
+        margin-bottom: 2rem;
+        }
+        .tiles-center{
+            width: 90vw;
+            max-width: 1170px;
+            margin: 0 auto;
+        }
+        @media screen and(min-width:768px){
+            .tiles-center{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 2rem;
+            }
+        }
+
+        .text-div{
+            display: grid;
+        }
+        .text-div article{
+            max-width: 900px;
+            padding: 1rem;
+            text-align: justify;
+            justify-content: flex-start;
+        }
+        .line{
+            width: 90%;
+            margin: 0 auto;
+        }
+        @media screen and (min-width:992px){
+            .text-div{
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            }
+        }
+        .main-aside-div{
+            display: grid;
+        }
+        @media screen and (min-width:992px) {
+            .main-aside-div{
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            align-items: center;
+            }
+        }
+        .main-text, .aside-text{
+            max-width: 900px;
+            padding: 1rem;
+            text-align: justify;
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <section class="tiles">
+        <div class="tile-title">
+            <h1>tiles layout</h1>
+        </div>
+        <div class="tiles-center">
+            <article class="tile-img">
+                <img src="./images/image-1.jpeg" alt="">
+            </article>
+            <article class="tile-img">
+                <img src="./images/image-2.jpeg" alt="">
+            </article>
+            <article class="tile-img">
+                <img src="./images/image-3.jpeg" alt="">
+            </article>
+            <article class="tile-img">
+                <img src="./images/image-4.jpeg" alt="">
+            </article>
+        </div>
+    </section>
+    <a href="index.html" class="btn">back to home</a>
+
+    <hr class="line">
+    <div class="text-div">
+        <article class="card-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut non alias quos repellat provident autem deleniti ad, unde cumque labore deserunt vero eius, dolorem vel dicta placeat voluptatibus? Nisi vel deserunt aliquid alias et quia nulla dolore fugit laudantium vero? Iusto dicta ducimus recusandae nulla voluptatibus necessitatibus saepe excepturi. Pariatur dolore modi quibusdam eos, illo nostrum qui unde tempora aspernatur. Iste omnis, officiis optio commodi voluptatum aliquam inventore id minus nam magnam, aliquid in asperiores similique? Veritatis voluptates officia, laboriosam assumenda maiores atque, amet ducimus nihil ad sequi magni ea necessitatibus veniam pariatur dignissimos deserunt debitis? Saepe velit architecto laudantium! Quidem aliquam nemo nobis!</p>
+        </article>
+        <article class="card-2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut non alias quos repellat provident autem deleniti ad, unde cumque labore deserunt vero eius, dolorem vel dicta placeat voluptatibus? Nisi vel deserunt aliquid alias et quia nulla dolore fugit laudantium vero? Iusto dicta ducimus recusandae nulla voluptatibus necessitatibus saepe excepturi. Pariatur dolore modi quibusdam eos, illo nostrum qui unde tempora aspernatur. Iste omnis, officiis optio commodi voluptatum aliquam inventore id minus nam magnam, aliquid in asperiores similique? Veritatis voluptates officia, laboriosam assumenda maiores atque, amet ducimus nihil ad sequi magni ea necessitatibus veniam pariatur dignissimos deserunt debitis? Saepe velit architecto laudantium! Quidem aliquam nemo nobis!</p>
+        </article>
+    </div>
+    <hr class="line">
+    <div class="main-aside-div">
+    <article class="main-text">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi corrupti architecto aspernatur atque facere alias molestiae excepturi. Praesentium voluptatibus, animi odit rerum vel, magnam fugit ducimus atque adipisci aliquam porro dolore quaerat qui quibusdam modi nam quisquam expedita aut. Debitis rem quibusdam quidem ullam dolore! Recusandae labore cupiditate quos qui.</p>
+    </article>
+    <aside class="aside-text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quis voluptatibus mollitia molestias iure hic animi, iste reiciendis tempore. Pariatur esse doloribus labore delectus ipsum suscipit quos voluptatem ratione, molestias sapiente aliquid perferendis nam aspernatur quam eius facilis magnam sed culpa aut assumenda odio. Id, perferendis odit debitis nesciunt, accusantium maiores suscipit, praesentium corporis dolorem commodi non dolores voluptate! Cupiditate quia voluptatum recusandae. Exercitationem ducimus ratione ad error doloribus blanditiis qui pariatur explicabo ab, dolores sed omnis in architecto dolorum porro a neque repellendus voluptate consectetur quidem eveniet quae accusantium laudantium! Explicabo iusto esse id. Porro, dolor iusto harum nostrum vitae nulla tempore reprehenderit veritatis eveniet praesentium impedit molestiae incidunt dolore facere sunt sed quas enim possimus, voluptatum suscipit provident?</p>
+    </aside>
+    </div>
+</body>
+</html>
+
+
+
